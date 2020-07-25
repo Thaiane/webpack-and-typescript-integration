@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Project for study and practice of webpack and typescript integration",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Thaiane/webpack-and-typescript-integration.git"
@@ -14,5 +13,13 @@
   "bugs": {
     "url": "https://github.com/Thaiane/webpack-and-typescript-integration/issues"
   },
-  "homepage": "https://github.com/Thaiane/webpack-and-typescript-integration#readme"
+  "homepage": "https://github.com/Thaiane/webpack-and-typescript-integration#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.0",
+    "jquery": "^3.5.1",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
