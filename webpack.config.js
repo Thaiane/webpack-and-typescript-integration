@@ -4,6 +4,11 @@ const CopyPlugin = require('copy-webpack-plugin')
 module.exports = {
   mode: 'production',
   entry: './src/main.ts',
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 9000,
+    hot: true // essa opção deixar o reload a cada mudança :)
+  },
   output: {
     filename: 'app.min.js',
     path: path.join(__dirname, 'dist') // variavel __dirname é do node é pega o caminho do seu diretório atual
