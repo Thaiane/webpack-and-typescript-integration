@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Project for study and practice of webpack and typescript integration",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Thaiane/webpack-and-typescript-integration.git"
