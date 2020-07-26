@@ -6,4 +6,5 @@ jspm_packages/
 typings/
 
 .idea/
+.DS_Store
 

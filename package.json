@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Thaiane/webpack-and-typescript-integration#readme",
   "devDependencies": {
     "@types/jquery": "^3.5.0",
+    "copy-webpack-plugin": "^6.0.3",
     "jquery": "^3.5.1",
     "ts-loader": "^8.0.1",
     "typescript": "^3.9.7",
